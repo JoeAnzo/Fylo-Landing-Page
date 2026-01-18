@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     let t7 = gsap.timeline({
       scrollTrigger:{
         trigger:'footer',
-        markers:false,
+        markers:true,
         start:'10% center',
         end:'+=500',
         scrub:true,
