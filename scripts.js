@@ -34,5 +34,150 @@ document.addEventListener("DOMContentLoaded", (event) => {
     opacity:1,
     duration:1,
   })
-     
+  let mm = gsap.matchMedia();
+  mm.add('(max-width:508px)',()=>{
+    let t1 = gsap.timeline({
+      scrollTrigger:{
+        trigger:'.feature',
+        markers:true,
+        start:'10% center',
+        end:'+=500',
+        scrub:true,
+        once:true,
+      }
+    })
+     let t2 = gsap.timeline({
+      scrollTrigger:{
+        trigger:'.feature-2',
+        markers:true,
+        start:'10% center',
+        end:'+=500',
+        scrub:true,
+        once:true,
+      }
+    })
+     let t3 = gsap.timeline({
+      scrollTrigger:{
+        trigger:'.feature-3',
+        markers:true,
+        start:'10% center',
+        end:'+=500',
+        scrub:true,
+        once:true,
+      }
+    })
+     let t4 = gsap.timeline({
+      scrollTrigger:{
+        trigger:'.feature-4',
+        markers:true,
+        start:'10% center',
+        end:'+=500',
+        scrub:true,
+        once:true,
+      }
+    })
+     let t5 = gsap.timeline({
+      scrollTrigger:{
+        trigger:'.stay-productive',
+        markers:true,
+        start:'10% center',
+        end:'+=500',
+        scrub:true,
+        once:true,
+      }
+    })
+    let t6 = gsap.timeline({
+      scrollTrigger:{
+        trigger:'.testimonials',
+        markers:true,
+        start:'10% center',
+        end:'+=500',
+        scrub:true,
+        once:true,
+      }
+    })
+    let t7 = gsap.timeline({
+      scrollTrigger:{
+        trigger:'footer',
+        markers:true,
+        start:'10% center',
+        end:'+=500',
+        scrub:true,
+        once:true,
+      }
+    })
+    t7.from('.animate-footer-member',{
+      y:300,
+      opacity:0,
+      duration:3,
+      stagger:{
+        each:0.5,
+        ease:"power2.inOut",
+      }
+    })
+    t6.from('.testimony',{
+      x:-300,
+      opacity:0,
+      duration:3,
+       stagger:{
+        each:2,
+        ease:"power2.inOut",
+      } 
+    })
+    t6.from('.get-early-access-today',{
+      y:500,
+      opacity:0,
+      duration:10,
+    })
+    t5.from('.animate-stay-productive-image',{
+      x:-300,
+      opacity:0,
+      duration:4
+    })
+    t5.from('.animate-stay-productive',{
+      y:500,
+      opacity:0,
+      duration:4,
+      stagger:{
+        each:0.2,
+        ease:"power2.inOut",
+      }
+    })
+    t1.from('.animate',{
+      y:-300,
+      opacity:0,
+      duration:3,
+       stagger:{
+        each:2,
+        ease:"power2.inOut",
+      },
+    })
+    t2.from('.animate-2',{
+      y:-300,
+      opacity:0,
+      duration:3,
+       stagger:{
+        each:2,
+        ease:"power2.inOut",
+      },
+    })
+    t3.from('.animate-3',{
+      y:-300,
+      opacity:0,
+      duration:3,
+       stagger:{
+        each:2,
+        ease:"power2.inOut",
+      },
+    })
+    t4.from('.animate-4',{
+      y:-300,
+      opacity:0,
+      duration:3,
+       stagger:{
+        each:2,
+        ease:"power2.inOut",
+      },
+    })
  })
+})

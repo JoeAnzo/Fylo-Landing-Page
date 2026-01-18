@@ -1,4 +1,23 @@
-
+@media (orientation:landscape){
+  .get-early-access-today{
+    width:90%;
+  }
+ .job-title{
+  line-height:1.5em;
+ }
+ .author{
+  line-height:1.5em;
+ }
+ .testimony{
+  justify-content:space-between;
+ }
+ .testimonial-owner .author-image{
+  align-self:center;
+ }
+ .main-footer-container{
+  gap:.4em;
+ }
+}
 @media (width<=508px){
   header ul {
     margin-left:1em;
@@ -9,6 +28,9 @@
 .hero-paragraph{
   text-align:center;
   
+}
+.hero-section{
+  background-image: url('./Assets/bg-curvy-mobile.svg');
 }
 .break{
   display:none;
