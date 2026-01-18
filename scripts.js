@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         trigger:'footer',
         markers:true,
         start:'10% center',
-        end:'+=500',
+        end:'+=500 bottom',
         scrub:true,
         once:true,
       }
