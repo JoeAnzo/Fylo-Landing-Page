@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         trigger:'.stay-productive',
         markers:false,
         start:'10% center',
-        end:'+=500',
+        end:'+=700',
         scrub:true,
         once:true,
       }
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         trigger:'.testimonials',
         markers:false,
         start:'10% center',
-        end:'+=500',
+        end:'+=800',
         scrub:true,
         once:true,
       }
