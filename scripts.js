@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     t6.from('.testimony',{
       x:-300,
       opacity:0,
-      duration:3,
+      duration:4,
        stagger:{
         each:2,
         ease:"power2.inOut",
