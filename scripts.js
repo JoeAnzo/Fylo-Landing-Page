@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     let t1 = gsap.timeline({
       scrollTrigger:{
         trigger:'.feature',
-        markers:true,
+        markers:false,
         start:'10% center',
         end:'+=500',
         scrub:true,
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
      let t2 = gsap.timeline({
       scrollTrigger:{
         trigger:'.feature-2',
-        markers:true,
+        markers:false,
         start:'10% center',
         end:'+=500',
         scrub:true,
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
      let t3 = gsap.timeline({
       scrollTrigger:{
         trigger:'.feature-3',
-        markers:true,
+        markers:false,
         start:'10% center',
         end:'+=500',
         scrub:true,
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
      let t4 = gsap.timeline({
       scrollTrigger:{
         trigger:'.feature-4',
-        markers:true,
+        markers:false,
         start:'10% center',
         end:'+=500',
         scrub:true,
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
      let t5 = gsap.timeline({
       scrollTrigger:{
         trigger:'.stay-productive',
-        markers:true,
+        markers:false,
         start:'10% center',
         end:'+=500',
         scrub:true,
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     let t6 = gsap.timeline({
       scrollTrigger:{
         trigger:'.testimonials',
-        markers:true,
+        markers:false,
         start:'10% center',
         end:'+=500',
         scrub:true,
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     let t7 = gsap.timeline({
       scrollTrigger:{
         trigger:'footer',
-        markers:true,
+        markers:false,
         start:'10% center',
         end:'+=500',
         scrub:true,
